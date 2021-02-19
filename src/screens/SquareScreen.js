@@ -10,18 +10,43 @@ const SquareScreen = ()  => {
     const [green, setGreen] = useState(0);
     const [blue, setBlue] = useState(0);
 
+    // const setColor = (color, change) => {
+    //     if (color === 'red') {
+    //         if (red + change > 255 || red + change < 0) {
+    //             return;
+    //         } else {
+    //             setRed(red + change)
+    //         }
+    //     }
+    // };
+
     return(
         <View>
            <ColorCounter 
-            onIncrease={() => setRed(red + COLOR_INCREMENT)} 
+            onIncrease={() => {
+                if(red +COLOR_INCREMENT > 255) {
+                    return;
+                }
+                setRed(red + COLOR_INCREMENT)} 
+            }
             onDecrease={() => setRed(red - COLOR_INCREMENT)}
             color= "Red"/>
            <ColorCounter 
-            onIncrease={() => setBlue(blue + COLOR_INCREMENT)} 
+            onIncrease={() => {
+                if(blue +COLOR_INCREMENT > 255) {
+                    return;
+                }
+                setRed(blue + COLOR_INCREMENT)} 
+            }
             onDecrease={() => setBlue(blue - COLOR_INCREMENT)}
             color= "Blue"/>
            <ColorCounter 
-            onIncrease={() => setGreen(green + COLOR_INCREMENT)} 
+             onIncrease={() => {
+                if(green +COLOR_INCREMENT > 255) {
+                    return;
+                }
+                setRed(green + COLOR_INCREMENT)} 
+            } 
             onDecrease={() => setGreen(green - COLOR_INCREMENT)}
             color= "Green"/>
 
