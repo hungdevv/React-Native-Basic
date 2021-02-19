@@ -9,6 +9,7 @@ const navigator = createStackNavigator(
     Home: HomeScreen,
     Components: ComponentsScreen,
     List: ListScreen,
+    hung: ComponentsScreen,
   },
   {
     initialRouteName: 'Home',
