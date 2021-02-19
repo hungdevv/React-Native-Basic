@@ -6,8 +6,8 @@ const ImageScreen = () => {
     <ScrollView>
         <ImageDetail 
         title="Forest" 
-        imageSource={require('../../assets/forest.jpg'
-        )}/>
+        imageSource={require('../../assets/forest.jpg')}
+        />
 
         <ImageDetail 
         title="Beach" 
