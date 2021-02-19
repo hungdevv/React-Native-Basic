@@ -1,15 +1,39 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {ScrollView, View, Text, StyleSheet} from 'react-native';
 import ImageDetail from '../components/imageDetail';
 const ImageScreen = () => {
     return (
-    <View>
-        <ImageDetail title="Forest"/>
-        <ImageDetail title="Beach"/>
-        <ImageDetail title="Forest"/>
-        <ImageDetail title="Mountain"/>
-        <ImageDetail title="Forest"/>
-    </View>
+    <ScrollView>
+        <ImageDetail 
+        title="Forest" 
+        imageSource={require('../../assets/forest.jpg'
+        )}/>
+
+        <ImageDetail 
+        title="Beach" 
+        imageSource={require('../../assets/beach.jpg'
+        )}/>
+
+        <ImageDetail 
+        title="Forest" 
+        imageSource={require('../../assets/forest.jpg'
+        )}/>
+
+        <ImageDetail 
+        title="Mountain" 
+        imageSource={require('../../assets/mountain.jpg'
+        )}/>
+
+        <ImageDetail 
+        title="Forest" 
+        imageSource={require('../../assets/forest.jpg'
+        )}/>
+
+        <ImageDetail 
+        title="Forest" 
+        imageSource={require('../../assets/forest.jpg'
+        )}/>
+    </ScrollView>
     )
 };
 
