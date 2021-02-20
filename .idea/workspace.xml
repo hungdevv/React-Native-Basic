@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba2a9dc5-65a5-4885-be3e-38f3fb933514" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.expo-shared/assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/adaptive-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="ba2a9dc5-65a5-4885-be3e-38f3fb933514" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,10 +35,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="204" y="143" width="1049" height="501" maximized="true" key="AVDManager" timestamp="1613698404670">
+    <state x="204" y="143" width="1049" height="501" maximized="true" key="AVDManager" timestamp="1613787912339">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="204" y="143" width="1049" height="501" maximized="true" key="AVDManager/0.27.1366.741@0.27.1366.741" timestamp="1613698404670" />
+    <state x="204" y="143" width="1049" height="501" maximized="true" key="AVDManager/0.27.1366.741@0.27.1366.741" timestamp="1613787912339" />
     <state x="204" y="143" width="1069" height="501" maximized="true" key="AVDManager/67.27.1299.741@67.27.1299.741" timestamp="1613633342361" />
     <state x="205" y="33" key="SettingsEditor" timestamp="1613632351415">
       <screen x="67" y="27" width="1299" height="741" />
