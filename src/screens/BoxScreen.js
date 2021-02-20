@@ -19,13 +19,17 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         height: 300,
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center', 
+
     },
     textOneStyle: {
         borderWidth: 1,
         borderColor: 'red',
         flex: 4,
-        alignSelf: 'flex-end'
+        alignSelf: 'flex-end',
+        // position: 'absolute',
+        // bottom: 0
+        ...StyleSheet.absoluteFillObject
         // marginHorizontal: 20,
         // marginVertical: 20
 
@@ -34,7 +38,9 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: 'red',
         flex: 4,
-        alignSelf: 'flex-start'
+        alignSelf: 'flex-start',
+        left: 10
+
         // marginHorizontal: 20,
         // marginVertical: 20
 
